@@ -5,7 +5,7 @@ Home: https://github.com/sbrunner/sphinx-prompt
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Sphinx directive to add unselectable prompt
 
