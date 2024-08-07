@@ -1,13 +1,13 @@
 {% set name = "sphinx-prompt" %}
-{% set version = "1.4.0" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 70c8e66d1f36def1e295ed961c7562bbf8fc697eea5191b92b41e4784c264ef5
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 471b3c6d466dce780a9b167d9541865fd4e9a80ed46e31b06a52a0529ae995a1
 
 build:
   noarch: python
